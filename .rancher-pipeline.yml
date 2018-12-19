@@ -1,0 +1,6 @@
+stages:
+- name: run
+  steps:
+  - applyYamlConfig:
+      path: app.yaml
+timeout: 60
